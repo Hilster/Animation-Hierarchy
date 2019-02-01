@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Aeroplane.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="HeightMap.cpp" />
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\xmltest.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Entity.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeroplane.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMap.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{db7a6ec5-cfa7-4255-9c06-6d867cf4411e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml\docs">
+      <UniqueIdentifier>{fd5e1567-8d68-4acd-9dd5-e2d5b463f953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{03357520-9370-476d-a75b-7fbbe100b283}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tinyxml\changes.txt">
+      <Filter>tinyxml</Filter>
+    </Text>
+    <Text Include="tinyxml\readme.txt">
+      <Filter>tinyxml</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tinyxml\Makefile">
+      <Filter>tinyxml</Filter>
+    </None>
+    <None Include="tinyxml\tinyxml.sln">
+      <Filter>tinyxml</Filter>
+    </None>
+    <None Include="tinyxml\tinyxml_lib.vcxproj">
+      <Filter>tinyxml</Filter>
+    </None>
+    <None Include="tinyxml\tinyxmlSTL.vcxproj">
+      <Filter>tinyxml</Filter>
+    </None>
+    <None Include="tinyxml\tinyXmlTest.vcxproj">
+      <Filter>tinyxml</Filter>
+    </None>
+    <None Include="tinyxml\tinyXmlTestSTL.vcxproj">
+      <Filter>tinyxml</Filter>
+    </None>
+    <None Include="tinyxml\docs\annotated.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classes.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlAttribute.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlAttribute-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlBase.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlBase-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlComment.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlComment-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlDeclaration.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlDeclaration-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlDocument.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlDocument-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlElement.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlElement-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlHandle.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlHandle-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlNode.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlNode-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlPrinter.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlPrinter-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlText.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlText-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlUnknown.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlUnknown-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlVisitor.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\classTiXmlVisitor-members.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\deprecated.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\doxygen.css">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\files.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x6c.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x6e.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x6f.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x63.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x64.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x65.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x66.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x67.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x69.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x70.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x71.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x72.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x73.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x74.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x75.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_0x76.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_enum.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x6c.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x6e.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x63.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x64.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x65.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x66.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x67.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x69.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x70.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x71.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x72.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x73.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x74.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x75.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_func_0x76.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_rela.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\functions_vars.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\hierarchy.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\index.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\pages.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\tabs.css">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\tinystr_8h_source.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\tinyxml_8h_source.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+    <None Include="tinyxml\docs\tutorial0.html">
+      <Filter>tinyxml\docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tinyxml\utf8test.gif">
+      <Filter>tinyxml</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlAttribute.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlBase.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlComment.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlDeclaration.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlDocument.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlElement.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlNode.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlPrinter.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlText.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlUnknown.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\classTiXmlVisitor.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\doxygen.png">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\tab_b.gif">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\tab_l.gif">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+    <Image Include="tinyxml\docs\tab_r.gif">
+      <Filter>tinyxml\docs</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="tinyxml\utf8test.xml">
+      <Filter>tinyxml</Filter>
+    </Xml>
+    <Xml Include="tinyxml\utf8testverify.xml">
+      <Filter>tinyxml</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
